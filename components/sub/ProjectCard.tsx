@@ -5,7 +5,7 @@ interface Props {
   src: string;
   title: string;
   description: string;
-  link: string; // Add link property
+  link: string;
 }
 
 const ProjectCard = ({ src, title, description, link }: Props) => {
