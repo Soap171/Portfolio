@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="mailto:spiyumal48@gmail.com" className="hover:underline">
             <span className="text-[#f4443d]">Email</span> : spiyumal48@gmail.com
           </a>{" "}
-          |
+          <span className="hidden md:block"> |</span>
           <a href="tel:+94771908671" className="hover:underline">
             <span className="text-[#25D366]">Whatsapp</span> : +94 771908671
           </a>

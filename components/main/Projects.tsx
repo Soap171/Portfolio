@@ -2,11 +2,7 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 import { motion } from "framer-motion";
-import {
-  slideInFromLeft,
-  slideInFromRight,
-  slideInFromTop,
-} from "@/utils/motion";
+import { slideInFromTop } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 
 const Projects = () => {
@@ -25,7 +21,7 @@ const Projects = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px] ">
-            Check Out My Github To See More Information About Below Projects
+            Check Out My Github To See More Information
           </h1>
         </motion.div>
       </div>
